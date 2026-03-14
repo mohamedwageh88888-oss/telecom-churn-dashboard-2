@@ -1,61 +1,71 @@
-# 📞 Telecom Customer Churn Analysis Dashboard
+# 📊 Data Analytics & Business Intelligence Portfolio
 
+![Data Analysis](https://img.shields.io/badge/Data_Analysis-Project-blue?style=for-the-badge)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Data Analytics](https://img.shields.io/badge/Data_Analysis-Project-blue?style=for-the-badge)
-![Customer Retention](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-## 📋 Project Overview
-This project presents a comprehensive **Customer Churn Analysis** for "Databel," a fictional telecommunications company. The dashboard is designed to identify key drivers of churn, analyze customer demographics, and provide actionable insights to improve retention strategies.
+Welcome! This repository features professional data analytics projects using **Power BI** and **Excel** to analyze sales performance and customer retention strategies.
 
 ---
 
-## 🚀 Key Performance Indicators (KPIs)
-Based on the **Overview** analysis:
-* 👥 **Total Customers:** 6,687
-* 📉 **Total Churners:** 1,796
-* 📊 **Churn Rate:** **26.86%**
-* 📉 **Total Revenue:** ~$21M
+## 📞 Project 1: Telecom Customer Churn Analysis
+This Power BI dashboard analyzes "Databel" customer data to identify why customers are leaving and how to improve retention.
+
+### 1️⃣ Executive Overview
+<p align="center">
+  <img src="Overview.png" width="800" alt="Telecom Churn Overview">
+</p>
+
+* **Total Customers:** 6,687
+* **Churn Rate:** **26.86%**
+* **Top Insight:** Competitors are the primary reason for churn (~45%), specifically due to better device offers and data plans.
 
 ---
 
-## 🖼️ Dashboard Previews
+### 2️⃣ Demographics Analysis
+<p align="center">
+  <img src="Demographics.png" width="800" alt="Customer Demographics">
+</p>
 
-### 1. 🔍 Executive Overview
-*Visualizes the high-level churn rate and total customer count. It highlights the main reasons for churn, with **Competitors** being the primary driver (45%).*
-
-### 2. 👥 Demographics Analysis
-*Focuses on how age, gender, and group memberships affect churn. Key insight: **Senior citizens** and customers **not in a group plan** show significantly higher churn rates.*
-
-### 3. 🌐 International & Data Usage
-*Explores the relationship between international plans and data consumption. Customers with an **International Plan** but low international minutes have a high propensity to churn.*
+* **High-Risk Segment:** **Senior Citizens** have a significantly higher churn rate of **38.46%**.
+* **Group Plans:** Customers who are not part of a group plan show a higher propensity to leave the service.
 
 ---
 
-## 🛠️ Built With
-* **Power BI Desktop:** For data modeling and visualization.
-* **DAX (Data Analysis Expressions):** For advanced measures like Churn Rate % and Revenue Loss calculations.
-* **Power Query:** For data cleaning and transformation (ETL).
-* **Dataset:** `Databel - Data.csv`
+### 3️⃣ International & Data Usage Analysis
+<p align="center">
+  <img src="Int & Data Plane.jpg" width="800" alt="International & Data Analysis">
+</p>
+
+* **Data Usage:** Churn is highest among customers who consume less than 5GB of monthly data.
+* **International Plans:** There is a notable "plan mismatch" where customers with international plans but low usage are more likely to churn.
 
 ---
 
-## 🧠 Key Insights & Findings
+## 👟 Project 2: Adidas US Sales Dashboard (Excel)
 
-* **⚠️ Contract Type:** Customers on **Month-to-Month** contracts have a much higher churn rate compared to those on one-year or two-year plans.
-* **📱 Data Usage:** Churn is higher among customers with low monthly GB downloads (under 5GB).
-* **📍 Regional Trends:** Specific states like **California (CA)** show higher churn volatility compared to the national average.
-* **📞 Customer Service:** A high frequency of customer service calls is a strong leading indicator of future churn.
+### 🖼️ Dashboard Preview
+<p align="center">
+  <img src="Adidas Dashboard.png" width="800" alt="Adidas Sales Dashboard">
+</p>
+
+* **Total Sales:** $120.1 Million
+* **Total Operating Profit:** $332.1 Million
+* **Top Product:** **Men's Street Footwear** leading with $82.8M in profit.
+* **Top Region:** The **West Region** is the most profitable geographic area.
 
 ---
 
-## 📂 Repository Structure
-```text
-├── Data/
-│   └── Databel - Data.csv             # Raw Customer Dataset
-├── Dashboard/
-│   └── Telecom Churn Dashboard.pbix   # Power BI Project File
-├── Screenshots/
-│   ├── Overview.png                   # Main Dashboard View
-│   ├── Demographics.png               # Demographic Deep-dive
-│   └── Int_Data_Plane.jpg             # Usage Analysis
-└── README.md                          # Project Documentation
+## 🛠️ Technical Skills Demonstrated
+* **Data Modeling:** Established relationships between complex tables for seamless cross-filtering.
+* **DAX Measures:** Developed custom calculations for churn percentages and revenue loss.
+* **Advanced Excel:** Utilized Pivot Tables, Power Pivot, and Interactive Slicers.
+* **ETL Process:** Cleaned and transformed raw CSV data using Power Query.
+
+## 📂 How to Access
+1.  **Clone the repo:** `git clone https://github.com/YourUsername/RepoName.git`
+2.  **View Images:** Ensure the images are in the root directory for the README to display them.
+3.  **Run Reports:** Open the `.pbix` file in Power BI Desktop or the `.xlsx` file in Microsoft Excel.
+
+---
+**Developed by: Muhammed** - *Data Analyst & Developer*
